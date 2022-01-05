@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This Email Template Used to notify pm for elevate user conversion - This notification currently sends to the PM when the user clicks a button in LOLA to email their PM about the status of their application</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Elevate Notify PM</name>
+    <style>none</style>
+    <subject>Status Inquiry: {!Application__c.Applicant_name__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
